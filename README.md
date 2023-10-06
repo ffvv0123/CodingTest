@@ -7,6 +7,7 @@
 ### 🚀 Platinum
 | 문제번호 | 링크 |
 | ----- | ----- |
+|15311. 약 팔기|[링크](./%EB%B0%B1%EC%A4%80/Platinum/15311.%E2%80%85%EC%95%BD%E2%80%85%ED%8C%94%EA%B8%B0/%EC%95%BD%E2%80%85%ED%8C%94%EA%B8%B0.cc)|
 |1725. 히스토그램|[링크](./%EB%B0%B1%EC%A4%80/Platinum/1725.%E2%80%85%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8/README.md)|
 ### 🚀 Silver
 | 문제번호 | 링크 |
