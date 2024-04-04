@@ -1,62 +1,55 @@
 #include <iostream>
 using namespace std;
-#define MAX_SIZE 64
 
-int arr[MAX_SIZE][MAX_SIZE];
+int video[65][65];
 
-void quadtree(int x, int y, int size){
-    if(size == 1){
-        cout << arr[x][y];
-        return;
-    }
+void quadtree(int start, int end, int size) {
 
-    bool white, black;  // white: 0, black: 1
-    white = black = true;
+    bool isClear = true;
+    int checker = video[start][end];
 
-    for (int i = x; i < x + size; i++){
-        for (int j = y; j < y + size; j++){
-            if(arr[i][j] == 0) {
-                black = false;
-            }
-            if(arr[i][j] == 1){
-                white = false;
+    for(int i = start; i < start + size; i++){
+        for(int j = end; j < end + size; j++){
+            if(checker != video[i][j]){
+                isClear = false;
+                break;
             }
         }
     }
-    
-    if(white == true){
-        cout << 0;
-        return;
+
+    if(isClear){
+        cout << checker;
     }
 
-    if(black == true){
-        cout << 1;
-        return;
+    else{
+        cout << "(";
+        quadtree(start, end, size/2);
+        quadtree(start, end + size/2, size/2);
+        quadtree(start + size/2, end, size/2);
+        quadtree(start + size/2, end + size/2, size/2);
+        cout << ")";
     }
-
-    cout << "(";
-
-    quadtree(x, y, size / 2);
-    quadtree(x, y + size / 2, size / 2);
-    quadtree(x + size / 2, y, size / 2);
-    quadtree(x + size / 2, y + size / 2, size / 2);
-
-    cout << ")";
 }
 
-int main(){
+void ans(){
     int N;
     cin >> N;
-    
-    for (int i = 0; i < N; i++){
+
+    for(int i = 0; i < N; i++){
         string tmp;
         cin >> tmp;
         for (int j = 0; j < tmp.length(); j++){
-            arr[i][j] = tmp[j] - '0';
+            video[i][j] = tmp[j] - '0';
         }
     }
-
     quadtree(0, 0, N);
+}
+
+int main(){
+    cin.tie(NULL); 
+    ios_base::sync_with_stdio(false);
+
+    ans();
 
     return 0;
 }
