@@ -1,3 +1,2 @@
 a,b = map(int, input().split())
 print(a+b)
-#다른 언어는......죄송합니다......
