@@ -20,6 +20,7 @@
 |2750. 수 정렬하기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2750.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/README.md)|
 |2753. 윤년|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2753.%E2%80%85%EC%9C%A4%EB%85%84/README.md)|
 |2798. 블랙잭|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2798.%E2%80%85%EB%B8%94%EB%9E%99%EC%9E%AD/README.md)|
+|3003. 킹， 퀸， 룩， 비숍， 나이트， 폰|[링크](./%EB%B0%B1%EC%A4%80/Bronze/3003.%E2%80%85%ED%82%B9%EF%BC%8C%E2%80%85%ED%80%B8%EF%BC%8C%E2%80%85%EB%A3%A9%EF%BC%8C%E2%80%85%EB%B9%84%EC%88%8D%EF%BC%8C%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8%EF%BC%8C%E2%80%85%ED%8F%B0/README.md)|
 ### 🚀 Gold
 | 문제번호 | 링크 |
 | ----- | ----- |
