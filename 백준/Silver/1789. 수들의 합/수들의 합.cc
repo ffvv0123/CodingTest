@@ -5,7 +5,7 @@ void ans(){
     long S;
     cin >> S;
 
-    long N = 0;
+    int N = 0;
 
     while(S > 0){
         N++;
