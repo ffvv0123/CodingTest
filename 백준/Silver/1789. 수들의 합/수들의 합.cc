@@ -7,14 +7,11 @@ void ans(){
 
     int N = 0;
 
-    while(S > 0){
-        N++;
-        S -= N;
+    while(S >= 0){
+        S -= ++N;
     }    
 
-    if (S < 0) N--;
-
-    cout << N;
+    cout << N-1;
 }
 
 int main() {
