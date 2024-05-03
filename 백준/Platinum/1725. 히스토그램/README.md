@@ -4,11 +4,15 @@
 
 ### 성능 요약
 
-메모리: 2684 KB, 시간: 48 ms
+메모리: 2812 KB, 시간: 12 ms
 
 ### 분류
 
 자료 구조, 분할 정복, 세그먼트 트리, 스택
+
+### 제출 일자
+
+2024년 5월 4일 05:46:10
 
 ### 문제 설명
 
@@ -20,7 +24,7 @@
 
 <p>이러한 히스토그램의 내부에 가장 넓이가 큰 직사각형을 그리려고 한다. 아래 그림의 빗금 친 부분이 그 예이다. 이 직사각형의 밑변은 항상 히스토그램의 아랫변에 평행하게 그려져야 한다.</p>
 
-<p style="text-align: center;"><img alt="" height="166" src="" width="236"></p>
+<p style="text-align: center;"><img alt="" height="166" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/upload/201006/histo.PNG" width="236"></p>
 
 <p>주어진 히스토그램에 대해, 가장 큰 직사각형의 넓이를 구하는 프로그램을 작성하시오.</p>
 
