@@ -40,3 +40,80 @@
 
  <p>r행 c열을 몇 번째로 방문했는지 출력한다.</p>
 
+```
+'''
+N = 1
+
+01
+23 -> 이 순서대로 방문함.
+
+N = 2 -> 0에서 Z돌리고 1에서 Z돌리고, ... 재귀다 재귀 -> 반복도 된다잉
+count = 0해놓고 방문하면 1씩 올려
+-> if 답 걸리면 리턴뱉기
+-> 아니면 2차원 배열 만들고 해보기
+N = 15
+-> 2^30 -> 0.5초면 충분
+-> 메모리 터짐
+
+'''
+
+## 메모리 터지는 풀이
+## 4번의 재귀를 모두 부를 필요도 없다. r,c범위로 조건 맞는거만 재귀 돌리면 시간도 개선 가능함
+# import sys
+# N, r, c = map(int, sys.stdin.readline().split())
+# count = 0
+
+# maps = [[0] * 2**N for _ in range(2**N)]
+
+# def Z(N, x, y):
+#     global count
+
+#     if N == 1:
+#         maps[x][y] = count
+#         maps[x][y+1] = count + 1
+#         maps[x+1][y] = count + 2
+#         maps[x+1][y+1] = count + 3
+#         count += 4
+#     else:
+#         Z(N-1, x, y)
+#         Z(N-1, x, y + 2**(N-1))
+#         Z(N-1, x + 2**(N-1), y)
+#         Z(N-1, x + 2**(N-1), y + 2**(N-1))
+
+# Z(N, 0, 0)
+# print(maps[r][c])
+
+## 공간을 없애고 재귀로 바로 해결 -> 시간초과 ㅋㅋ
+## -> 4번의 재귀를 굳이 해야하는가? ㄴㄴ
+# import sys
+# N, r, c = map(int, sys.stdin.readline().split())
+# count = 0
+
+# def Z(N, x, y):
+#     global count
+
+#     if N == 1:
+#         if x == r and y == c:
+#             print(count)
+#             return True
+#         elif x == r and y + 1 == c:
+#             print(count+1)
+#             return True
+#         elif x + 1 == r and y == c:
+#             print(count+2)
+#             return True
+#         elif x + 1 == r and y + 1 == c:
+#             print(count+3)
+#             return True
+#         count += 4        
+#     else:
+#         Z(N-1, x, y)
+#         Z(N-1, x, y + 2**(N-1))
+#         Z(N-1, x + 2**(N-1), y)
+#         Z(N-1, x + 2**(N-1), y + 2**(N-1))
+
+# Z(N, 0, 0)
+
+## 시간, 공간 모두 개선
+```
+
