@@ -7,7 +7,7 @@ N개 스트링
 
 N = int(input())
 prefix = []
-answer = 0
+answer = N
 
 for i in range(N):
     tmp = input()
@@ -16,14 +16,9 @@ for i in range(N):
 prefix = sorted(prefix, key = lambda x: len(x))
 
 for i in range(N):
-    flag = False
     for j in range(i+1,N):
         if prefix[i] in prefix[j][0:len(prefix[i])]:
-            flag = True
+            answer -= 1
             break
-
-    if not flag:
-        answer += 1
-
+        
 print(answer)
-    
