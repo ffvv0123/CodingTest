@@ -1,13 +1,7 @@
 direction = ['N', 'E', 'S', 'W']
-current_pos = 'N'
+command = 0
 
 for i in range(10):
-    command = int(input())
-    if command == 1:
-        current_pos = direction[(direction.index(current_pos) + 1) % 4]
-    elif command == 2:
-        current_pos = direction[(direction.index(current_pos) + 2) % 4]
-    elif command == 3:
-        current_pos = direction[(direction.index(current_pos) + 3) % 4]
+    command += int(input())
 
-print(current_pos)
+print(direction[command % 4])
