@@ -54,6 +54,10 @@
 |31628. 가지 한 두름 주세요|[링크](./%EB%B0%B1%EC%A4%80/Bronze/31628.%E2%80%85%EA%B0%80%EC%A7%80%E2%80%85%ED%95%9C%E2%80%85%EB%91%90%EB%A6%84%E2%80%85%EC%A3%BC%EC%84%B8%EC%9A%94/README.md)|
 |4153. 직각삼각형|[링크](./%EB%B0%B1%EC%A4%80/Bronze/4153.%E2%80%85%EC%A7%81%EA%B0%81%EC%82%BC%EA%B0%81%ED%98%95/README.md)|
 |9086. 문자열|[링크](./%EB%B0%B1%EC%A4%80/Bronze/9086.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4/%EB%AC%B8%EC%9E%90%EC%97%B4.py)|
+### 🚀 Diamond
+| 문제번호 | 링크 |
+| ----- | ----- |
+|18185. 라면 사기 （Small）|[링크](./%EB%B0%B1%EC%A4%80/Diamond/18185.%E2%80%85%EB%9D%BC%EB%A9%B4%E2%80%85%EC%82%AC%EA%B8%B0%E2%80%85%EF%BC%88Small%EF%BC%89/README.md)|
 ### 🚀 Gold
 | 문제번호 | 링크 |
 | ----- | ----- |
