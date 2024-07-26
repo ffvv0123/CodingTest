@@ -195,6 +195,7 @@
 |2178. 미로 탐색|[링크](./%EB%B0%B1%EC%A4%80/Silver/2178.%E2%80%85%EB%AF%B8%EB%A1%9C%E2%80%85%ED%83%90%EC%83%89/%EB%AF%B8%EB%A1%9C%E2%80%85%ED%83%90%EC%83%89.cc)|
 |2210. 숫자판 점프|[링크](./%EB%B0%B1%EC%A4%80/Silver/2210.%E2%80%85%EC%88%AB%EC%9E%90%ED%8C%90%E2%80%85%EC%A0%90%ED%94%84/README.md)|
 |22952. permutation making|[링크](./%EB%B0%B1%EC%A4%80/Silver/22952.%E2%80%85permutation%E2%80%85making/permutation%E2%80%85making.py)|
+|23246. Sport Climbing Combined|[링크](./%EB%B0%B1%EC%A4%80/Silver/23246.%E2%80%85Sport%E2%80%85Climbing%E2%80%85Combined/Sport%E2%80%85Climbing%E2%80%85Combined.cc)|
 |24313. 알고리즘 수업 － 점근적 표기 1|[링크](./%EB%B0%B1%EC%A4%80/Silver/24313.%E2%80%85%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%E2%80%85%EC%88%98%EC%97%85%E2%80%85%EF%BC%8D%E2%80%85%EC%A0%90%EA%B7%BC%EC%A0%81%E2%80%85%ED%91%9C%EA%B8%B0%E2%80%851/README.md)|
 |2468. 안전 영역|[링크](./%EB%B0%B1%EC%A4%80/Silver/2468.%E2%80%85%EC%95%88%EC%A0%84%E2%80%85%EC%98%81%EC%97%AD/%EC%95%88%EC%A0%84%E2%80%85%EC%98%81%EC%97%AD.py)|
 |2529. 부등호|[링크](./%EB%B0%B1%EC%A4%80/Silver/2529.%E2%80%85%EB%B6%80%EB%93%B1%ED%98%B8/%EB%B6%80%EB%93%B1%ED%98%B8.cc)|
