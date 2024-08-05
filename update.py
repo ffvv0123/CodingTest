@@ -15,7 +15,7 @@ def main():
     directories = []
     solveds = []
 
-    max_length = 255  # 파일 이름 최대 길이 설정
+    max_length = 50  # 파일 이름 최대 길이 설정
 
     for root, dirs, files in os.walk("."):
         dirs.sort()
