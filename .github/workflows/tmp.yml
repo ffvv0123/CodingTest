@@ -1,0 +1,21 @@
+name: Clean and Checkout
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  clean_and_checkout:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Initialize the runner environment
+        run: |
+          echo "Cleaning up the working directory..."
+          rm -rf /home/runner/work/*
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
