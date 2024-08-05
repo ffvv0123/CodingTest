@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 import os
 from urllib import parse
 
@@ -12,10 +13,8 @@ def main():
     content = ""
     content += HEADER
     
-    directories = []
-    solveds = []
-
-    max_length = 50  # 파일 이름 최대 길이 설정
+    directories = [];
+    solveds = [];
 
     for root, dirs, files in os.walk("."):
         dirs.sort()
@@ -47,13 +46,8 @@ def main():
             directories.append(directory)
 
         for file in files:
-            full_path = os.path.join(root, file)
-            if len(full_path) > max_length:
-                print(f"Skipping long file name: {full_path}")
-                continue
-            print(f"Processing file: {full_path}")
             if category not in solveds:
-                content += "|{}|[링크]({})|\n".format(category, parse.quote(full_path))
+                content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
                 print("category : " + category)
 
@@ -62,3 +56,4 @@ def main():
         
 if __name__ == "__main__":
     main()
+
