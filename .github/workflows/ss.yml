@@ -1,0 +1,20 @@
+name: Clean and Checkout
+
+on: [push]
+
+jobs:
+  clean_and_checkout:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Reset git
+        run: |
+          echo "Resetting git configuration..."
+          git reset --hard
+          git clean -fdx
+          rm -rf .git
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
