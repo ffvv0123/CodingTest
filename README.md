@@ -265,6 +265,7 @@
 |22952. permutation making|[링크](./%EB%B0%B1%EC%A4%80/Silver/22952.%E2%80%85permutation%E2%80%85making/permutation%E2%80%85making.py)|
 |23246. Sport Climbing Combined|[링크](./%EB%B0%B1%EC%A4%80/Silver/23246.%E2%80%85Sport%E2%80%85Climbing%E2%80%85Combined/Sport%E2%80%85Climbing%E2%80%85Combined.cc)|
 |24313. 알고리즘 수업 － 점근적 표기 1|[링크](./%EB%B0%B1%EC%A4%80/Silver/24313.%E2%80%85%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%E2%80%85%EC%88%98%EC%97%85%E2%80%85%EF%BC%8D%E2%80%85%EC%A0%90%EA%B7%BC%EC%A0%81%E2%80%85%ED%91%9C%EA%B8%B0%E2%80%851/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%E2%80%85%EC%88%98%EC%97%85%E2%80%85%EF%BC%8D%E2%80%85%EC%A0%90%EA%B7%BC%EC%A0%81%E2%80%85%ED%91%9C%EA%B8%B0%E2%80%851.py)|
+|24511. queuestack|[링크](./%EB%B0%B1%EC%A4%80/Silver/24511.%E2%80%85queuestack/queuestack.cc)|
 |2468. 안전 영역|[링크](./%EB%B0%B1%EC%A4%80/Silver/2468.%E2%80%85%EC%95%88%EC%A0%84%E2%80%85%EC%98%81%EC%97%AD/%EC%95%88%EC%A0%84%E2%80%85%EC%98%81%EC%97%AD.py)|
 |2529. 부등호|[링크](./%EB%B0%B1%EC%A4%80/Silver/2529.%E2%80%85%EB%B6%80%EB%93%B1%ED%98%B8/README.md)|
 |2563. 색종이|[링크](./%EB%B0%B1%EC%A4%80/Silver/2563.%E2%80%85%EC%83%89%EC%A2%85%EC%9D%B4/README.md)|
