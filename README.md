@@ -124,6 +124,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |10026. 적록색약|[링크](./%EB%B0%B1%EC%A4%80/Gold/10026.%E2%80%85%EC%A0%81%EB%A1%9D%EC%83%89%EC%95%BD/README.md)|
+|1011. Fly me to the Alpha Centauri|[링크](./%EB%B0%B1%EC%A4%80/Gold/1011.%E2%80%85Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri/Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri.cc)|
 |11404. 플로이드|[링크](./%EB%B0%B1%EC%A4%80/Gold/11404.%E2%80%85%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C/%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C.cc)|
 |1167. 트리의 지름|[링크](./%EB%B0%B1%EC%A4%80/Gold/1167.%E2%80%85%ED%8A%B8%EB%A6%AC%EC%9D%98%E2%80%85%EC%A7%80%EB%A6%84/%ED%8A%B8%EB%A6%AC%EC%9D%98%E2%80%85%EC%A7%80%EB%A6%84.cc)|
 |1197. 최소 스패닝 트리|[링크](./%EB%B0%B1%EC%A4%80/Gold/1197.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC/README.md)|
