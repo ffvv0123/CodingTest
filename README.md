@@ -187,6 +187,7 @@
 ### 🚀 Platinum
 | 문제번호 | 링크 |
 | ----- | ----- |
+|11003. 최솟값 찾기|[링크](./%EB%B0%B1%EC%A4%80/Platinum/11003.%E2%80%85%EC%B5%9C%EC%86%9F%EA%B0%92%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)|
 |12899. 데이터 구조|[링크](./%EB%B0%B1%EC%A4%80/Platinum/12899.%E2%80%85%EB%8D%B0%EC%9D%B4%ED%84%B0%E2%80%85%EA%B5%AC%EC%A1%B0/README.md)|
 |15311. 약 팔기|[링크](./%EB%B0%B1%EC%A4%80/Platinum/15311.%E2%80%85%EC%95%BD%E2%80%85%ED%8C%94%EA%B8%B0/%EC%95%BD%E2%80%85%ED%8C%94%EA%B8%B0.cc)|
 |1725. 히스토그램|[링크](./%EB%B0%B1%EC%A4%80/Platinum/1725.%E2%80%85%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8/README.md)|
