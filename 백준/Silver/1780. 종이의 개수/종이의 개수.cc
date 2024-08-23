@@ -2,42 +2,29 @@
 using namespace std;
 
 int N;
-int num_m1 = 0, num_0 = 0, num_1 = 0;
+int cnt[3];
 int paper[2200][2200];
 
-void get_number(int x, int y, int k) {    
-    if (k == 1) {
-        if (paper[x][y] == -1) num_m1++;
-        else if (paper[x][y] == 0) num_0++;
-        else if (paper[x][y] == 1) num_1++;
+bool check (int x, int y, int n) {
+    for(int i=x; i < x+n; i++) {
+        for(int j=y; j < y+n; j++) {
+            if (paper[x][y] != paper[i][j]) return false;
+        }
+    }
+    return true;
+}
 
+void solve(int x, int y, int k) {    
+    if (check(x, y, k)) {
+        cnt[paper[x][y] + 1]++;
         return;
     }
 
-    int tmp = paper[x][y]; 
-    bool checker = false;
-
-    for(int i=x; i < x+k; i++) {
-        for(int j=y; j < y+k; j++) {
-            if (paper[i][j] == tmp) continue;
-            else checker = true;
+    for(int i=0; i < 3; i++) {
+        for(int j=0; j < 3; j++) {
+            solve(x + i*k/3, y + j*k/3, k/3);
         }
     }
-
-    if (checker) {
-        for(int m=0; m < 3; m++) {
-            for(int n=0; n < 3; n++) {
-                get_number(x + k/3 * m, y + k/3 * n, k/3);
-            }
-        }        
-    }
-    else {
-        if (paper[x][y] == -1) num_m1++;
-        else if (paper[x][y] == 0) num_0++;
-        else if (paper[x][y] == 1) num_1++;
-    }
-
-    return;
 }
 
 int main() {
@@ -48,9 +35,11 @@ int main() {
     for(int i=0; i < N; i++)
         for(int j=0; j < N; j++)
             cin >> paper[i][j];
+    
+    for(int i=0; i < 3; i++) cnt[i] = 0;
 
-    get_number(0, 0, N);
-    cout << num_m1 << '\n' << num_0 << '\n' << num_1;
+    solve(0, 0, N);
+    for (int i = 0; i < 3; i++) cout << cnt[i] << "\n";
 
     return 0;
 }
