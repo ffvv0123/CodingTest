@@ -1,85 +1,35 @@
 #include <iostream>
-
 #include <stack>
-
 using namespace std;
 
-int main(){
+int N, h;
+int height[500001];
+stack<pair<int, int>> s;
 
-	int N;	cin >> N;
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
-	
+    cin >> N;
 
-	stack<pair<int, int>> s;
+    long long answer = 0;
+    while(N--) {
+        cin >> h;
+        int cnt = 1;
 
-	
+        while(!s.empty() && s.top().first <= h) {
+            answer += s.top().second;
 
-	long long result = 0;
+            if (s.top().first == h) {
+                cnt += s.top().second;
+            }
+            s.pop();
+        }
+        if (!s.empty()) answer++;
+        s.push({h, cnt});
+    }
 
-	
-
-	for (int i = 0; i < N; i++){
-
-		int height;
-
-		cin >> height;
-
-		
-
-		while (!s.empty() && s.top().first < height) {
-
-		    result += s.top().second;	
-
-			s.pop();
-
-			}
-
-			
-
-		if (s.empty())
-
-		    s.push({height, 1});
-
-		    
-
-		else {
-
-			if (s.top().first == height) {
-
-				pair<int, int> same = s.top();
-
-				s.pop();				
-
-				result += same.second;
-
-				
-
-				if (!s.empty())
-
-				    result++;
-
-				    
-
-				same.second++;
-
-				s.push(same);
-
-			}
-
-			
-
-			else {
-
-				s.push({height, 1});
-
-				result++;
-
-			}						
-
-		}						
-
-	}
-
-	cout << result;
-
+    cout << answer;
+    
+    return 0;
 }
