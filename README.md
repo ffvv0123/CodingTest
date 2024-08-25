@@ -7,6 +7,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |1001. A－B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/A%EF%BC%8DB.py)|
+|1009. 분산처리|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1009.%E2%80%85%EB%B6%84%EC%82%B0%EC%B2%98%EB%A6%AC/README.md)|
 |10101. 삼각형 외우기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10101.%E2%80%85%EC%82%BC%EA%B0%81%ED%98%95%E2%80%85%EC%99%B8%EC%9A%B0%EA%B8%B0/README.md)|
 |10162. 전자레인지|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10162.%E2%80%85%EC%A0%84%EC%9E%90%EB%A0%88%EC%9D%B8%EC%A7%80/README.md)|
 |1037. 약수|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1037.%E2%80%85%EC%95%BD%EC%88%98/README.md)|
