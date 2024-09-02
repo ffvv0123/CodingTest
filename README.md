@@ -264,6 +264,7 @@
 |12927. 배수 스위치|[링크](./%EB%B0%B1%EC%A4%80/Silver/12927.%E2%80%85%EB%B0%B0%EC%88%98%E2%80%85%EC%8A%A4%EC%9C%84%EC%B9%98/%EB%B0%B0%EC%88%98%E2%80%85%EC%8A%A4%EC%9C%84%EC%B9%98.cc)|
 |1309. 동물원|[링크](./%EB%B0%B1%EC%A4%80/Silver/1309.%E2%80%85%EB%8F%99%EB%AC%BC%EC%9B%90/%EB%8F%99%EB%AC%BC%EC%9B%90.py)|
 |13211. Passport Checking|[링크](./%EB%B0%B1%EC%A4%80/Silver/13211.%E2%80%85Passport%E2%80%85Checking/Passport%E2%80%85Checking.py)|
+|13239. Combinations|[링크](./%EB%B0%B1%EC%A4%80/Silver/13239.%E2%80%85Combinations/Combinations.cc)|
 |13305. 주유소|[링크](./%EB%B0%B1%EC%A4%80/Silver/13305.%E2%80%85%EC%A3%BC%EC%9C%A0%EC%86%8C/README.md)|
 |1343. 폴리오미노|[링크](./%EB%B0%B1%EC%A4%80/Silver/1343.%E2%80%85%ED%8F%B4%EB%A6%AC%EC%98%A4%EB%AF%B8%EB%85%B8/README.md)|
 |13717. 포켓몬 GO|[링크](./%EB%B0%B1%EC%A4%80/Silver/13717.%E2%80%85%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85GO/%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85GO.cc)|
