@@ -153,6 +153,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |18185. 라면 사기 （Small）|[링크](./%EB%B0%B1%EC%A4%80/Diamond/18185.%E2%80%85%EB%9D%BC%EB%A9%B4%E2%80%85%EC%82%AC%EA%B8%B0%E2%80%85%EF%BC%88Small%EF%BC%89/%EB%9D%BC%EB%A9%B4%E2%80%85%EC%82%AC%EA%B8%B0%E2%80%85%EF%BC%88Small%EF%BC%89.py)|
+|32231. 재우의 삼수강|[링크](./%EB%B0%B1%EC%A4%80/Diamond/32231.%E2%80%85%EC%9E%AC%EC%9A%B0%EC%9D%98%E2%80%85%EC%82%BC%EC%88%98%EA%B0%95/%EC%9E%AC%EC%9A%B0%EC%9D%98%E2%80%85%EC%82%BC%EC%88%98%EA%B0%95.cc)|
 ### 🚀 Gold
 | 문제번호 | 링크 |
 | ----- | ----- |
