@@ -230,6 +230,7 @@
 ### 🚀 Platinum
 | 문제번호 | 링크 |
 | ----- | ----- |
+|10220. Self Representing Seq|[링크](./%EB%B0%B1%EC%A4%80/Platinum/10220.%E2%80%85Self%E2%80%85Representing%E2%80%85Seq/README.md)|
 |11003. 최솟값 찾기|[링크](./%EB%B0%B1%EC%A4%80/Platinum/11003.%E2%80%85%EC%B5%9C%EC%86%9F%EA%B0%92%E2%80%85%EC%B0%BE%EA%B8%B0/%EC%B5%9C%EC%86%9F%EA%B0%92%E2%80%85%EC%B0%BE%EA%B8%B0.cc)|
 |11868. 님 게임 2|[링크](./%EB%B0%B1%EC%A4%80/Platinum/11868.%E2%80%85%EB%8B%98%E2%80%85%EA%B2%8C%EC%9E%84%E2%80%852/%EB%8B%98%E2%80%85%EA%B2%8C%EC%9E%84%E2%80%852.cc)|
 |11869. 님블|[링크](./%EB%B0%B1%EC%A4%80/Platinum/11869.%E2%80%85%EB%8B%98%EB%B8%94/README.md)|
