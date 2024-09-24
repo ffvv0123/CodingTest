@@ -47,6 +47,7 @@
 |15232. Rectangles|[링크](./%EB%B0%B1%EC%A4%80/Bronze/15232.%E2%80%85Rectangles/README.md)|
 |15366. Olivander|[링크](./%EB%B0%B1%EC%A4%80/Bronze/15366.%E2%80%85Olivander/Olivander.cc)|
 |15439. 베라의 패션|[링크](./%EB%B0%B1%EC%A4%80/Bronze/15439.%E2%80%85%EB%B2%A0%EB%9D%BC%EC%9D%98%E2%80%85%ED%8C%A8%EC%85%98/README.md)|
+|15680. 연세대학교|[링크](./%EB%B0%B1%EC%A4%80/Bronze/15680.%E2%80%85%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/README.md)|
 |15733. 나는 누구인가|[링크](./%EB%B0%B1%EC%A4%80/Bronze/15733.%E2%80%85%EB%82%98%EB%8A%94%E2%80%85%EB%88%84%EA%B5%AC%EC%9D%B8%EA%B0%80/README.md)|
 |15814. 야바위 대장|[링크](./%EB%B0%B1%EC%A4%80/Bronze/15814.%E2%80%85%EC%95%BC%EB%B0%94%EC%9C%84%E2%80%85%EB%8C%80%EC%9E%A5/README.md)|
 |15829. Hashing|[링크](./%EB%B0%B1%EC%A4%80/Bronze/15829.%E2%80%85Hashing/README.md)|
