@@ -1,93 +1,51 @@
 #include <iostream>
-
-#include <vector>
-
+#include <algorithm>
+#include <string>
 using namespace std;
 
+string A, B, C = "";
+
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
-    int sum;
+    cin >> A >> B;
 
-    int num1[10002] ={0};
+    int len_A = A.length(), len_B = B.length();
+    int carry = 0;
 
-    int num2[10002] = {0};
-
-    string s1, s2;
-
-    vector<int> ans;
-
-    
-
-    
-
-    cin >> s1 >> s2;
-
-    
-
-    if(s1.size() < s2.size()) {
-
-        string tmp;
-
-        tmp = s1;
-
-        s1 = s2;
-
-        s2 = tmp;
-
+    string err = "";
+    for (int i = 0; i < abs(len_A - len_B); i++) {
+        err += '0';
     }
 
-    
-
-    int size1 = s1.size();
-
-    int size2 = s2.size();
-
-    
-
-    for(int i=0; i<size1; i++){
-
-        num1[i + 1] = s1[i] - '0';
-
+    if (len_A > len_B) {
+        B = err + B;
+        len_B = len_A;
+    }
+    else if (len_A < len_B) {
+        A = err + A;
+        len_A = len_B;
     }
 
-    
+    reverse(A.begin(), A.end());
+    reverse(B.begin(), B.end());
 
-    for(int i=0; i<size2; i++){
-
-        num2[i + 1 +(size1 - size2)] = s2[i] - '0';
-
-    }
-
-    
-
-    for(int i=size1; i>0; i--){
-
-        sum = num1[i] + num2[i];
-
-        if(sum >= 10){
-
-            num1[i - 1]++;
-
-            sum -= 10;
-
+    for (int i = 0; i < len_A; i++) {
+        if (A[i] - '0' + B[i] - '0' + carry >= 10) {
+            C += (A[i] - '0' + B[i] - '0' + carry) % 10 + '0';
+            carry = 1;
         }
-
-        ans.push_back(sum);
-
+        else {
+            C += (A[i] - '0' + B[i] + carry);
+            carry = 0;
+        }
     }
-
     
 
-    if(num1[0] != 0) cout << 1;
-
-    
-
-    for(int i = ans.size() - 1; i>=0; i--)
-
-        cout << ans[i];
-
-    
+    reverse(C.begin(), C.end());
+    if (carry == 1) C = '1' + C;
+    cout << C;
 
     return 0;
-
 }
