@@ -28,14 +28,11 @@ int main() {
         }
         else {
             int s = num, e = num;
+            status[num] = 1 - status[num];
+            
             while (status[s] == status[e] && s >= 1 && e <= num_switch) {
-                if (s == e) {
-                    status[s] = 1 - status[s];
-                }
-                else {
-                    status[s] = 1 - status[s];
-                    status[e] = 1 - status[e];
-                }
+                status[s] = 1 - status[s];
+                status[e] = 1 - status[e];
                 s--;
                 e++;
             }
