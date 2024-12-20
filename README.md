@@ -264,6 +264,7 @@
 |26074. 곰곰이와 테트리스|[링크](./%EB%B0%B1%EC%A4%80/Platinum/26074.%E2%80%85%EA%B3%B0%EA%B3%B0%EC%9D%B4%EC%99%80%E2%80%85%ED%85%8C%ED%8A%B8%EB%A6%AC%EC%8A%A4/README.md)|
 |28300. 응원단|[링크](./%EB%B0%B1%EC%A4%80/Platinum/28300.%E2%80%85%EC%9D%91%EC%9B%90%EB%8B%A8/%EC%9D%91%EC%9B%90%EB%8B%A8.py)|
 |3015. 오아시스 재결합|[링크](./%EB%B0%B1%EC%A4%80/Platinum/3015.%E2%80%85%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4%E2%80%85%EC%9E%AC%EA%B2%B0%ED%95%A9/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4%E2%80%85%EC%9E%AC%EA%B2%B0%ED%95%A9.cc)|
+|5828. Fuel Economy|[링크](./%EB%B0%B1%EC%A4%80/Platinum/5828.%E2%80%85Fuel%E2%80%85Economy/Fuel%E2%80%85Economy.cc)|
 ### 🚀 Silver
 | 문제번호 | 링크 |
 | ----- | ----- |
