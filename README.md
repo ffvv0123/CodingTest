@@ -289,6 +289,7 @@
 |10828. 스택|[링크](./%EB%B0%B1%EC%A4%80/Silver/10828.%E2%80%85%EC%8A%A4%ED%83%9D/README.md)|
 |10845. 큐|[링크](./%EB%B0%B1%EC%A4%80/Silver/10845.%E2%80%85%ED%81%90/%ED%81%90.cc)|
 |10866. 덱|[링크](./%EB%B0%B1%EC%A4%80/Silver/10866.%E2%80%85%EB%8D%B1/README.md)|
+|10892. Divide into triangle|[링크](./%EB%B0%B1%EC%A4%80/Silver/10892.%E2%80%85Divide%E2%80%85into%E2%80%85triangle/README.md)|
 |1094. 막대기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1094.%E2%80%85%EB%A7%89%EB%8C%80%EA%B8%B0/%EB%A7%89%EB%8C%80%EA%B8%B0.cc)|
 |10972. 다음 순열|[링크](./%EB%B0%B1%EC%A4%80/Silver/10972.%E2%80%85%EB%8B%A4%EC%9D%8C%E2%80%85%EC%88%9C%EC%97%B4/README.md)|
 |11004. K번째 수|[링크](./%EB%B0%B1%EC%A4%80/Silver/11004.%E2%80%85K%EB%B2%88%EC%A7%B8%E2%80%85%EC%88%98/README.md)|
