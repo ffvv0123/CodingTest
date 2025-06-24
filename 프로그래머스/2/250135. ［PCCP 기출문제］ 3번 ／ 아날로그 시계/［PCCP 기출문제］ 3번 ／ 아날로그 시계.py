@@ -1,3 +1,8 @@
+'''
+2025.05.03 ver
+PCCP 연습 문항
+'''
+
 def solution(h1, m1, s1, h2, m2, s2):
     answer = 0
     
