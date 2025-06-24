@@ -1,3 +1,8 @@
+'''
+2025.05.03 ver
+PCCP 연습 문항
+'''
+
 from collections import deque
 
 def solution(land):
